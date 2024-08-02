@@ -1,5 +1,5 @@
 {% set name = "openinference-instrumentation-llama-index" %}
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openinference_instrumentation_llama_index-{{ version }}.tar.gz
-  sha256: ac4ac639d8ac22efb3684a48f2a67f90070eee7a053ee829ac010cfd3fb2b4ed
+  sha256: dda948e6d7b0a43dcf9f308e412e6df8e8a32e7a7f4303daf12078fe9117992d
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - opentelemetry-api
     - opentelemetry-instrumentation
     - opentelemetry-semantic-conventions
-    - openinference-instrumentation >=0.1.11
+    - openinference-instrumentation >=0.1.12
     - openinference-semantic-conventions >=0.1.9
     - typing-extensions
     - wrapt
