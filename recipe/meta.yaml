@@ -1,5 +1,5 @@
 {% set name = "openinference-instrumentation-llama-index" %}
-{% set version = "4.3.6" %}
+{% set version = "4.3.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/openinference_instrumentation_llama_index-{{ version }}.tar.gz
-  sha256: 6fd2df50d93afba8521944b4d152d2c9b914d792dd70c01285e35cb307536c5b
+  sha256: 5c5d814aae5814eb99bc766050d37b41277387cfd7569e9ee7b234f6dd24fc40
 
 build:
   noarch: python
